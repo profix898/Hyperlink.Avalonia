@@ -1,0 +1,21 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Hyperlink.Avalonia.Themes.HyperlinkStyles">
+    <Styles.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <MergeResourceInclude Source="avares://Hyperlink.Avalonia/Themes/Colors.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Styles.Resources>
+  
+    <!-- Hyperlink -->
+    <Style Selector="TextBlock.Hyperlink">
+        <Setter Property="Foreground" Value="{DynamicResource HyperlinkColor}" />
+    </Style>
+    <Style Selector="TextBlock.Hyperlink:pointerover">
+        <Setter Property="Foreground" Value="{DynamicResource HyperlinkHighlightColor}" />
+        <Setter Property="TextDecorations" Value="Underline" />
+        <Setter Property="Cursor" Value="Hand" />
+    </Style>
+</Styles>

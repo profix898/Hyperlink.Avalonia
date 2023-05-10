@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.0-preview.4.8333" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="**/*.xaml" />
+    <AvaloniaResource Include="**/*.axaml" />
+  </ItemGroup>
+</Project>

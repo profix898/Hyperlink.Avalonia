@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:avalonia="clr-namespace:Hyperlink.Avalonia;assembly=Hyperlink.Avalonia"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="450"
+        Width="900" Height="450"
+        x:Class="DemoApp.MainWindow"
+        Title="Hyperlink.Avalonia">
+
+    <StackPanel>
+        <TextBlock>Normal Text</TextBlock>
+        <TextBlock>Normal Text</TextBlock>
+        <avalonia:Hyperlink Url="google.de">Link A</avalonia:Hyperlink>
+        <avalonia:Hyperlink Url="google.de">Link B</avalonia:Hyperlink>
+        <TextBlock>Normal Text</TextBlock>
+    </StackPanel>
+
+</Window>

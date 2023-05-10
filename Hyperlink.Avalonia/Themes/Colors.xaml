@@ -1,0 +1,17 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.ThemeDictionaries>
+        <!-- Default / Light -->
+        <ResourceDictionary x:Key="Default">
+            <SolidColorBrush x:Key="HyperlinkColor" Color="Blue" />
+            <SolidColorBrush x:Key="HyperlinkHighlightColor" Color="DarkBlue" />
+        </ResourceDictionary>
+
+        <!-- Dark -->
+        <ResourceDictionary x:Key="Dark">
+            <SolidColorBrush x:Key="HyperlinkColor" Color="Blue" />
+            <SolidColorBrush x:Key="HyperlinkHighlightColor" Color="DarkBlue" />
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>
