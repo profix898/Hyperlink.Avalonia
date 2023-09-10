@@ -13,9 +13,10 @@
     <Copyright>Copyright (c) Thilo Viereck 2023</Copyright>
     <DefaultLanguage>en-US</DefaultLanguage>
     <BuildNumber>$([System.DateTime]::UtcNow.Subtract($([System.DateTime]::Parse("2023/05/01"))).TotalDays.ToString("0"))</BuildNumber>
-    <Version>0.9.$(BuildNumber)-preview1</Version>
+    <Version>0.9.$(BuildNumber)-preview.7</Version>
     <FileVersion>$(Version)</FileVersion>
-    <Version>0.9.$(BuildNumber)</Version>
+    <!--<AssemblyVersion>$(Version)</AssemblyVersion>-->
+    <AssemblyVersion>0.9.$(BuildNumber)</AssemblyVersion>
     <PackageIcon>logo.png</PackageIcon>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
