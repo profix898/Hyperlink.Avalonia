@@ -7,6 +7,12 @@ namespace Hyperlink.Avalonia;
 
 public class Hyperlink : TextBlock
 {
+    #region HyperlinkManager
+
+    public static IHyperlinkManager HyperlinkManager { get; set; } = new HyperlinkManager();
+
+    #endregion
+
     public static readonly StyledProperty<string?> UrlProperty = AvaloniaProperty.Register<Hyperlink, string?>(nameof(Url));
 
     public Hyperlink()
@@ -37,7 +43,7 @@ public class Hyperlink : TextBlock
         base.OnPointerPressed(e);
 
         if (!String.IsNullOrEmpty(Url))
-            HyperlinkManager.Instance.OpenUrl(Url);
+            HyperlinkManager.OpenUrl(Url);
     }
 
     #endregion

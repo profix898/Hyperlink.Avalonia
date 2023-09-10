@@ -2,12 +2,14 @@
 
 namespace Hyperlink.Avalonia;
 
-public class HyperlinkManager
+public class HyperlinkManager : IHyperlinkManager
 {
-    public static HyperlinkManager Instance { get; set; } = new HyperlinkManager();
+    #region Implementation of IHyperlinkManager
 
     public virtual void OpenUrl(string url)
     {
         Browser.OpenAsync(url);
     }
+
+    #endregion
 }
