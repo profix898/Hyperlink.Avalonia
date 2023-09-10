@@ -8,11 +8,11 @@
         x:Class="DemoApp.MainWindow"
         Title="Hyperlink.Avalonia">
 
-    <StackPanel>
-        <TextBlock>Normal Text</TextBlock>
-        <TextBlock>Normal Text</TextBlock>
-        <avalonia:Hyperlink Url="google.de">Link A</avalonia:Hyperlink>
-        <avalonia:Hyperlink Url="google.de">Link B</avalonia:Hyperlink>
+    <StackPanel Margin="10" Spacing="5">
+        <TextBlock>Normal Text</TextBlock>      
+        <TextBlock>Normal Text</TextBlock>      
+        <avalonia:Hyperlink Url="https://www.avaloniaui.net/">Avalonia UI</avalonia:Hyperlink>
+        <avalonia:Hyperlink Url="https://docs.avaloniaui.net/docs/next/welcome">Avalonia Docs</avalonia:Hyperlink>
         <TextBlock>Normal Text</TextBlock>
     </StackPanel>
 

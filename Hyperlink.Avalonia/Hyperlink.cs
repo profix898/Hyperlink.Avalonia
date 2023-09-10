@@ -2,11 +2,10 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
-using Avalonia.Styling;
 
 namespace Hyperlink.Avalonia;
 
-public class Hyperlink : TextBlock, IStyleable
+public class Hyperlink : TextBlock
 {
     public static readonly StyledProperty<string?> UrlProperty = AvaloniaProperty.Register<Hyperlink, string?>(nameof(Url));
 
@@ -25,9 +24,9 @@ public class Hyperlink : TextBlock, IStyleable
         }
     }
 
-    #region IStyleable
+    #region Overrides of StyledElement
 
-    protected Type StyleKey => typeof(TextBlock);
+    protected override Type StyleKeyOverride => typeof(TextBlock);
 
     #endregion
 
