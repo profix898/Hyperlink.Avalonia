@@ -4,8 +4,8 @@
     <IsPackable>true</IsPackable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
-    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.0-preview.7.8842" />
+    <PackageReference Include="Avalonia" Version="11.0.5" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.3" />
   </ItemGroup>
   <ItemGroup>
     <AvaloniaResource Include="**/*.xaml" />
