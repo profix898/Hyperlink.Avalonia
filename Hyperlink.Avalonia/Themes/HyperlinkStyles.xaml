@@ -18,4 +18,8 @@
         <Setter Property="TextDecorations" Value="Underline" />
         <Setter Property="Cursor" Value="Hand" />
     </Style>
+    <Style Selector="TextBlock.Hyperlink:visited">
+        <Setter Property="Foreground" Value="{DynamicResource HyperlinkVisitedColor}" />
+        <Setter Property="TextDecorations" Value="Underline" />
+    </Style>
 </Styles>
