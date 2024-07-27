@@ -1,7 +1,7 @@
 Hyperlink.Avalonia
 ==========
 
-**Hyperlink.Avalonia** provides a hyperlink variant of *TextBlock* for **Avalonia UI**.
+**Hyperlink.Avalonia** provides a hyperlink variant of *TextBlock* for **[Avalonia](https://avaloniaui.net/)**.
 
 ### Documentation
 There is currently only very limited documentation (incl. API docs) available. Please refer to the *DemoApp* for preliminary instructions and usage examples.
